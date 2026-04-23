@@ -1,0 +1,47 @@
+# ----- Maven -----
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ----- IntelliJ IDEA -----
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ----- Eclipse / STS -----
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ----- VS Code -----
+.vscode/
+
+# ----- NetBeans -----
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ----- Logs / SO / otros -----
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ----- Secretos locales (no subir credenciales!) -----
+application-local.properties
+application-local.yml
+.env
